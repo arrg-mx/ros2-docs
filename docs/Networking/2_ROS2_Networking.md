@@ -320,7 +320,7 @@ Para que la comunicación distribuida funcione correctamente en ROS 2, es necesa
 
     Ejemplo de arquitectura en una red local con tres robots compartiendo datos de sensores:  
 
-    ![Ejemplo de arquitectura en una red local con tres robots compartiendo datos de sensores](../../images/ros2_nodes_topics.png)
+    ![Ejemplo de arquitectura en una red local con tres robots compartiendo datos de sensores](../../images/ros2-nodes-topics.png)
 
     Todos los robots pueden comunicarse sin configuración adicional.  
 
