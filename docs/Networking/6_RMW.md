@@ -1,4 +1,4 @@
-# RMW Implementations
+# Implementaciones RMW
 
 ## ¿Qué es RMW?  
 
