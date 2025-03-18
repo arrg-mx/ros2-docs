@@ -319,11 +319,9 @@ Para que la comunicación distribuida funcione correctamente en ROS 2, es necesa
     Si varios robots están en la misma red, pueden compartir datos fácilmente usando el mismo **ROS_DOMAIN_ID** y asegurando que la calidad de servicio (**QoS**) esté bien configurada.  
 
     Ejemplo de arquitectura en una red local con tres robots compartiendo datos de sensores:  
-    ```plaintext
-    Robot 1 (Nodo de sensores)  ---> Publica en /lidar_data
-    Robot 2 (Nodo de navegación) ---> Suscribe a /lidar_data
-    Robot 3 (Nodo de monitoreo)  ---> Suscribe a /lidar_data
-    ```
+
+    ![Ejemplo de arquitectura en una red local con tres robots compartiendo datos de sensores](../../images/ros2_nodes_topics.png)
+
     Todos los robots pueden comunicarse sin configuración adicional.  
 
 1. Comunicación entre Robots en Redes Diferentes
