@@ -335,7 +335,7 @@ Para que la comunicación distribuida funcione correctamente en ROS 2, es necesa
     > 
     > _La configuración consiste en un nodo ROS 2 que publica directivas de velocidad vía WAN a una aplicación Turtlesim y a un nodo micro-ROS que opera un Kobuki Turtlebot2, ambos ejecutándose en el concentrador remoto._ 
     > 
-    > _Usando [eProsima](https://www.eprosima.com/) solutions."_
+    > _Usando [eProsima](https://www.eprosima.com/) middleware solutions."_
     > 
     > Por _[Francesca Finocchiaro](https://discourse.ros.org/u/FraFin)_
 
