@@ -185,17 +185,20 @@ El **DNS** es un sistema que traduce nombres de dominio (ej. `www.google.com`) e
     - **Definición:** Comunicación de uno a uno, donde un solo emisor envía datos a un único receptor.  
     - **Ejemplo:** Un usuario descarga un archivo de un servidor FTP.  
     - **Uso:** Navegación web, correos electrónicos, videollamadas individuales.
-    ![Transmisión Unicast](../images/Unicast_net.png)
+
+        ![Transmisión Unicast](../images/Unicast_net.png)
 1. **Multicast**
     - **Definición:** Comunicación de uno a muchos, donde un solo emisor transmite datos a múltiples receptores que están suscritos a un grupo específico.
     - **Ejemplo:** Transmisión de video en vivo para usuarios que se han unido a un canal de streaming.
     - **Uso:** IPTV, juegos en línea, conferencias en vivo.
-    ![Transmisión Multicast](../images/Multicast_net.png)
+
+        ![Transmisión Multicast](../images/Multicast_net.png)
 1. **Broadcast**  
     - **Definición:** Comunicación de uno a todos, donde un emisor envía datos a todos los dispositivos dentro de una red.
     - **Ejemplo:** Un router enviando una solicitud DHCP a todos los dispositivos en una LAN.
     - **Uso:** Mensajes de red, protocolos como ARP (Address Resolution Protocol).
-    ![Transmisión Bradcast](../images/Broadcast_net.png)
+
+        ![Transmisión Bradcast](../images/Broadcast_net.png)
 
 ## Conceptos sobre Direccionamiento IP
 
