@@ -24,7 +24,7 @@ ssh arrgusr@192.168.1.103
 
 **Salida esperada en la primera conexión**:  
 
-```
+```console
 The authenticity of host '192.168.1.103 (192.168.1.103)' can't be established.
 ECDSA key fingerprint is SHA256:abc123xyz456...
 Are you sure you want to continue connecting (yes/no)? yes
@@ -34,7 +34,7 @@ Tras aceptar la conexión (`yes`), se pedirá la contraseña del usuario **arrgu
 
 **Si la conexión es exitosa, la terminal cambiará a la del robot:**  
 
-```
+```console
 arrgusr@dofbot_x:~$
 ```
 
