@@ -14,7 +14,9 @@ Este protocolo es clave para la comunicación eficiente y escalable en **ROS 2**
 - **Participant (Participante RTPS)** → Representa una aplicación en la red que puede contener múltiples publicadores y suscriptores.  
 - **Publisher (Publicador)** → Envia datos a uno o más suscriptores.  
 - **Subscriber (Suscriptor)** → Recibe datos de un tópico específico.  
-- **DataWriter y DataReader** → Componentes internos del publicador y suscriptor que manejan la serialización y transmisión de datos.  
+- **DataWriter y DataReader** → Componentes internos del publicador y suscriptor que manejan la serialización y transmisión de datos.
+
+![RTPS Structure Module](../images/RTPS_structure_module.png)
 
 ### Mensajes de RTPS
 
@@ -27,6 +29,9 @@ Este protocolo es clave para la comunicación eficiente y escalable en **ROS 2**
 
 **Ejemplo en ROS 2:**  
 Un nodo de sensores envía datos de un LIDAR mediante **DATA**, mientras que el nodo de navegación puede solicitar paquetes perdidos usando **ACKNACK**.  
+
+![RTPS Structure Module](../images/RTPS_structure_module.png)
+
 
 ## RTPS y DDS
 
@@ -42,7 +47,9 @@ El protocolo **RTPS es la base de DDS**, permitiendo la comunicación en sistema
 | **Descubrimiento** | Basado en dominios y configuraciones DDS | Implementación automática con mensajes RTPS |
 
 **Ejemplo en ROS 2:**  
-DDS define cómo los nodos deben comunicarse, mientras que RTPS maneja la transmisión física de los mensajes a través de la red.  
+DDS define cómo los nodos deben comunicarse, mientras que RTPS maneja la transmisión física de los mensajes a través de la red.
+
+![Corresponds between RTPS and DDS entries](../images/Corresp_RTPS_and_DDS_entries.png)
 
 ## RTPS Transports (Transporte de Datos en RTPS)
 
@@ -77,4 +84,3 @@ RTPS incluye un mecanismo de **descubrimiento automático**, permitiendo que los
 1. RTPS envía un mensaje de **"Participant Discovery"** a otros nodos.  
 1. Los nodos vecinos responden con su información de conexión.  
 1. Se establecen los canales de comunicación entre los nodos.  
-

@@ -12,6 +12,8 @@ Este enfoque descentralizado mejora la escalabilidad, seguridad y flexibilidad e
 
 DDS facilita la comunicación entre múltiples procesos sin requerir una conexión punto a punto explícita, permitiendo que los dispositivos intercambien información de manera eficiente y en tiempo real.  
 
+![Overview DDS Specification](../images/Overview_DDS_Spec.png)
+
 ## Propósito de DDS
 
 **DDS** fue diseñado para proporcionar una solución robusta y flexible para la **comunicación de datos en sistemas distribuidos**, incluyendo aplicaciones en robótica, sistemas industriales, automoción, telecomunicaciones y entornos críticos como la aviación y la medicina.  
