@@ -16,8 +16,6 @@ Este protocolo es clave para la comunicación eficiente y escalable en **ROS 2**
 - **Subscriber (Suscriptor)** → Recibe datos de un tópico específico.  
 - **DataWriter y DataReader** → Componentes internos del publicador y suscriptor que manejan la serialización y transmisión de datos.
 
-![RTPS Structure Module](../images/RTPS_structure_module.png)
-
 ### Mensajes de RTPS
 
 **RTPS** define distintos tipos de mensajes que regulan la comunicación:  
@@ -31,7 +29,6 @@ Este protocolo es clave para la comunicación eficiente y escalable en **ROS 2**
 Un nodo de sensores envía datos de un LIDAR mediante **DATA**, mientras que el nodo de navegación puede solicitar paquetes perdidos usando **ACKNACK**.  
 
 ![RTPS Structure Module](../images/RTPS_structure_module.png)
-
 
 ## RTPS y DDS
 
