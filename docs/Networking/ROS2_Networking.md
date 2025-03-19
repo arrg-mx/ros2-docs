@@ -330,3 +330,14 @@ Para que la comunicación distribuida funcione correctamente en ROS 2, es necesa
 
     **Ejemplo**: Un dron en el campo de cultivo transmite imágenes en tiempo real a un servidor en la nube, y un operador en una oficina urbana accede a esos datos mediante ROS 2 configurado con DDS en una red distribuida.  
 
+    **Demostración de Arquitectura**:
+    > _"La demostración muestra cómo dos espacios de datos ROS 2 separados, alojados en subredes distintas, pueden comunicarse a través de internet gracias a las capacidades TCP de Fast DDS y al Servicio de Integración, la herramienta que permite la intercomunicación de cualquier protocolo con DDS._
+    > 
+    > _La configuración consiste en un nodo ROS 2 que publica directivas de velocidad vía WAN a una aplicación Turtlesim y a un nodo micro-ROS que opera un Kobuki Turtlebot2, ambos ejecutándose en el concentrador remoto._ 
+    > 
+    > _Usando [eProsima](https://www.eprosima.com/) solutions."_
+    > 
+    > Por _[Francesca Finocchiaro](https://discourse.ros.org/u/FraFin)_
+
+    ![](../images/demo_network_diagram.png)
+    **Fuente:** [***ROS Discource*** *blog post "ROS 2 to micro-ROS TCP tunneling via Integration Service!" by Francesca Finocchiaro*](https://discourse.ros.org/t/ros-2-to-micro-ros-tcp-tunneling-via-integration-service/17453)
