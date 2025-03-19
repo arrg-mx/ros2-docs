@@ -1,12 +1,12 @@
 # Protocolo RTPS (Real-Time Publish-Subscribe)
 
-En **ROS 2**, la comunicación entre nodos se basa en el protocolo **RTPS (Real-Time Publish-Subscribe)**, el cual es una implementación específica del estándar **DDS (Data Distribution Service)**. RTPS permite la transmisión de datos en **tiempo real**, utilizando un modelo descentralizado donde los nodos pueden intercambiar información sin depender de un servidor central.  
+En **ROS 2**, la comunicación entre nodos se basa en el protocolo **RTPS (Real-Time Publish-Subscribe)**, el cual es una implementación específica del estándar [**DDS (Data Distribution Service)**](DDS.md). **RTPS** permite la transmisión de datos en **tiempo real**, utilizando un modelo descentralizado donde los nodos pueden intercambiar información sin depender de un servidor central.  
 
-Este protocolo es clave para la comunicación eficiente y escalable en ROS 2, permitiendo el descubrimiento automático de nodos y la transmisión confiable de datos en sistemas distribuidos.  
+Este protocolo es clave para la comunicación eficiente y escalable en **ROS 2**, permitiendo el descubrimiento automático de nodos y la transmisión confiable de datos en sistemas distribuidos.  
 
 ## Estructura de RTPS
 
-RTPS define un modelo de comunicación basado en **publicadores y suscriptores**, optimizado para entornos de **tiempo real**. La estructura básica de RTPS incluye los siguientes elementos:  
+**RTPS** define un modelo de comunicación basado en **publicadores y suscriptores**, optimizado para entornos de **tiempo real**. La estructura básica de **RTPS** incluye los siguientes elementos:  
 
 ### Entidades en RTPS
 
@@ -18,7 +18,7 @@ RTPS define un modelo de comunicación basado en **publicadores y suscriptores**
 
 ### Mensajes de RTPS
 
-RTPS define distintos tipos de mensajes que regulan la comunicación:  
+**RTPS** define distintos tipos de mensajes que regulan la comunicación:  
 
 - **DATA**: Contiene los datos que se transmiten entre publicadores y suscriptores.  
 - **HEARTBEAT**: Permite a un publicador notificar a los suscriptores sobre la disponibilidad de nuevos datos.  
@@ -46,7 +46,7 @@ DDS define cómo los nodos deben comunicarse, mientras que RTPS maneja la transm
 
 ## RTPS Transports (Transporte de Datos en RTPS)
 
-RTPS está diseñado para ser compatible con diferentes mecanismos de transmisión de datos, asegurando **baja latencia y confiabilidad** en la comunicación.  
+**RTPS** está diseñado para ser compatible con diferentes mecanismos de transmisión de datos, asegurando **baja latencia y confiabilidad** en la comunicación.  
 
 ### Métodos de Transporte en RTPS
 

@@ -47,7 +47,7 @@ ROS 2 también permite que los nodos almacenen y compartan configuraciones a tra
 
 ### Implementación de DDS en ROS 2
 
-**DDS (Data Distribution Service)** es el núcleo del sistema de comunicación en ROS 2. Este middleware gestiona el transporte de datos entre nodos y permite una comunicación eficiente en redes distribuidas.  
+[**DDS (Data Distribution Service)**](DDS.md) es el núcleo del sistema de comunicación en ROS 2. Este middleware gestiona el transporte de datos entre nodos y permite una comunicación eficiente en redes distribuidas.  
 
 1. Características de DDS en ROS 2
     - **Comunicación descentralizada:** No requiere un nodo maestro, lo que reduce puntos de fallo.  
@@ -73,7 +73,7 @@ ROS 2 soporta diferentes proveedores de DDS, cada uno con sus propias optimizaci
         ```
     Si dos sistemas ROS 2 tienen el mismo `ROS_DOMAIN_ID`, podrán comunicarse entre sí.  
 
-1. Configuración de QoS (Calidad de Servicio)
+1. Configuración de [**QoS** (Quality of Service, Calidad de Servicio)](QoS.md)
     - DDS permite personalizar la **calidad de servicio (QoS)** en la comunicación de ROS 2. Algunos de los parámetros más importantes son:
     - **Reliability (Fiabilidad)**  
         - `RELIABLE`: Garantiza que todos los mensajes lleguen correctamente.
@@ -207,7 +207,7 @@ DDS permite definir políticas de **Calidad de Servicio (QoS)** que afectan cóm
 
 ### Comunicación Distribuida en ROS 2
 
-La comunicación distribuida en **ROS 2** permite la interacción entre múltiples nodos ejecutándose en diferentes dispositivos dentro de una red. A diferencia de **ROS 1**, donde todos los nodos dependían de un maestro central (*roscore*), ROS 2 utiliza el estándar **DDS (Data Distribution Service)**, el cual facilita la comunicación descentralizada, escalable y robusta en redes heterogéneas.
+La comunicación distribuida en **ROS 2** permite la interacción entre múltiples nodos ejecutándose en diferentes dispositivos dentro de una red. A diferencia de **ROS 1**, donde todos los nodos dependían de un maestro central (***roscore***), **ROS 2** utiliza el estándar **DDS (Data Distribution Service)**, el cual facilita la comunicación descentralizada, escalable y robusta en redes heterogéneas.
 
 Esta arquitectura distribuida permite la implementación de **sistemas multi-robot**, integración con **servicios en la nube** y ejecución de **nodos en múltiples dispositivos** dentro de una misma red.
 
@@ -251,7 +251,7 @@ ROS 2 está diseñado para operar tanto en redes locales (LAN) como en redes de 
 
 Para que la comunicación distribuida funcione correctamente en ROS 2, es necesario configurar adecuadamente los siguientes aspectos:  
 
-1. Configuración de ROS_DOMAIN_ID
+1. Configuración de **ROS_DOMAIN_ID**
     
     - **ROS_DOMAIN_ID** es un identificador que permite segmentar diferentes sistemas ROS 2 dentro de una misma red.  
     - **Regla general:** Los nodos solo pueden comunicarse si tienen el mismo **ROS_DOMAIN_ID**.  
@@ -328,5 +328,5 @@ Para que la comunicación distribuida funcione correctamente en ROS 2, es necesa
 
     Si los robots están en diferentes redes (por ejemplo, en diferentes ubicaciones), se necesita configurar **DDS WAN** o usar **ROS 2 Bridge** con protocolos como **MQTT o WebSockets**.  
 
-    Ejemplo: Un dron en el campo de cultivo transmite imágenes en tiempo real a un servidor en la nube, y un operador en una oficina urbana accede a esos datos mediante ROS 2 configurado con DDS en una red distribuida.  
+    **Ejemplo**: Un dron en el campo de cultivo transmite imágenes en tiempo real a un servidor en la nube, y un operador en una oficina urbana accede a esos datos mediante ROS 2 configurado con DDS en una red distribuida.  
 

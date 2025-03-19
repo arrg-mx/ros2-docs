@@ -2,13 +2,13 @@
 
 ## ¿Qué es RMW?  
 
-En **ROS 2**, el middleware que gestiona la comunicación entre nodos se conoce como **RMW (ROS Middleware Interface)**. Esta capa intermedia permite que ROS 2 sea compatible con diferentes implementaciones de **DDS (Data Distribution Service)**, facilitando la flexibilidad y adaptabilidad a distintos entornos y necesidades.  
+En **ROS 2**, el middleware que gestiona la comunicación entre nodos se conoce como **RMW (ROS Middleware Interface)**. Esta capa intermedia permite que ROS 2 sea compatible con diferentes implementaciones de [**DDS (Data Distribution Service)**](DDS.md), facilitando la flexibilidad y adaptabilidad a distintos entornos y necesidades.  
 
-La **interfaz RMW** actúa como un puente entre la API de ROS 2 y el middleware subyacente, permitiendo a los desarrolladores elegir la implementación de DDS que mejor se adapte a su aplicación sin modificar el código de sus nodos ROS 2.  
+La **interfaz RMW** actúa como un puente entre la API de **ROS 2** y el middleware subyacente, permitiendo a los desarrolladores elegir la implementación de DDS que mejor se adapte a su aplicación sin modificar el código de sus nodos **ROS 2**.  
 
 ## Proveedore e Implementaciones
 
-ROS 2 admite múltiples implementaciones de **DDS**, proporcionadas por distintos **vendors** (proveedores). Cada implementación tiene sus propias características y optimizaciones, permitiendo a los desarrolladores seleccionar la más adecuada según los requisitos de su sistema.  
+**ROS 2** admite múltiples implementaciones de **DDS**, proporcionadas por distintos **vendors** (proveedores). Cada implementación tiene sus propias características y optimizaciones, permitiendo a los desarrolladores seleccionar la más adecuada según los requisitos de su sistema.  
 
 ### Lista de Implementaciones de RMW en ROS 2
 

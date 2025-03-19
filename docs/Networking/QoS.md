@@ -2,7 +2,7 @@
 
 ## ¿Qué es QoS en ROS 2?
 
-En **ROS 2**, **Quality of Service (QoS)** se refiere a un conjunto de configuraciones que permiten ajustar la manera en que los mensajes se transmiten entre nodos. **QoS** es una característica de **DDS (Data Distribution Service)**, el middleware que ROS 2 utiliza para la comunicación.  
+En **ROS 2**, **Quality of Service (QoS)** se refiere a un conjunto de configuraciones que permiten ajustar la manera en que los mensajes se transmiten entre nodos. **QoS** es una característica de [**DDS (Data Distribution Service)**](DDS.md), el middleware que ROS 2 utiliza para la comunicación.  
 
 **Objetivo:** Adaptar el comportamiento de la comunicación según las necesidades de cada aplicación.  
 
