@@ -30,6 +30,8 @@ ECDSA key fingerprint is SHA256:abc123xyz456...
 Are you sure you want to continue connecting (yes/no)? yes
 ```
 
+![](../images/ssh_first_conn.png)
+
 Tras aceptar la conexión (`yes`), se pedirá la contraseña del usuario **arrusr**.  
 
 **Si la conexión es exitosa, la terminal cambiará a la del robot:**  
