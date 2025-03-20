@@ -26,7 +26,7 @@ ip a
 ```
 **Importancia en ROS 2**: Asegurarse de que la interfaz de red correcta esté activa y tenga una dirección en la subred esperada.
 
-![](../images/ip_address_output.png)
+![](../images/ip_address_cmd.png)
 
 ## Comprobación de Conectividad con `ping`
 
@@ -49,6 +49,8 @@ Request timeout for icmp_seq 1
 ```
 
 **Importancia en ROS 2**: Si un nodo ROS 2 no responde al `ping`, es posible que haya problemas de red o firewalls bloqueando la comunicación.  
+
+![](../images/ping_cmd.png)
 
 ## Pruebas de Comunicación con `netcat`
 
@@ -91,7 +93,7 @@ Nmap scan report for 192.168.0.20 (Laptop)
 
 **Importancia en ROS 2**: Verifica qué dispositivos están activos y si un nodo específico está en la red.
 
-![](../images/nmap_output.png)
+![](../images/nmap-sP-cmd.png)
 
 ## Medición del Ancho de Banda con `iperf3`
 

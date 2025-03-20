@@ -39,7 +39,7 @@ arrusr@arrg-dev01:~$
 ```
 Ahora puedes ejecutar comandos en el robot de forma remota.  
 
-![](../images/ssh_conn_host.png)
+![](../images/ssh-connect-cmd.png)
 
 ## Ejecutar Nodos ROS 2 en el Robot desde SSH**  
 
@@ -102,11 +102,15 @@ Para copiar archivos entre el **host (`robolab-vm`)** y el **robot (`arrg-dev01`
 scp mi_script.py arrusr@192.168.1.101:/home/arrusr/
 ```
 
+![](../images/scp-cmd-to.png)
+
 **Ejemplo**: Transferir un archivo desde el robot al host
 
 ```bash
 scp arrusr@192.168.1.101:/home/arrusr/datos.txt .
 ```
+
+![](../images/scp-cmd-from.png)
 
 Para copiar carpetas grandes de forma eficiente, usa `rsync`:  
 
