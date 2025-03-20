@@ -24,7 +24,9 @@ ip a
     link/ether 00:1a:2b:3c:4d:5e brd ff:ff:ff:ff:ff:ff
     inet 192.168.0.20/24 brd 192.168.0.255 scope global dynamic ens33
 ```
-**Importancia en ROS 2**: Asegurarse de que la interfaz de red correcta esté activa y tenga una dirección en la subred esperada.  
+**Importancia en ROS 2**: Asegurarse de que la interfaz de red correcta esté activa y tenga una dirección en la subred esperada.
+
+![](../images/ip_address_output.png)
 
 ## Comprobación de Conectividad con `ping`
 
@@ -87,7 +89,9 @@ Nmap scan report for 192.168.0.10 (Robot)
 Nmap scan report for 192.168.0.20 (Laptop)
 ```
 
-**Importancia en ROS 2**: Verifica qué dispositivos están activos y si un nodo específico está en la red.  
+**Importancia en ROS 2**: Verifica qué dispositivos están activos y si un nodo específico está en la red.
+
+![](../images/nmap_output.png)
 
 ## Medición del Ancho de Banda con `iperf3`
 
