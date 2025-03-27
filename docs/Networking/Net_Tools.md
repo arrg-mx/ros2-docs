@@ -28,6 +28,8 @@ ip a
 
 ![](../images/ip_address_cmd.png)
 
+**Nota**: Para más información adicional para interpretar la salida del comando, consultar la siguiente referencia [_"How to Check an IP Address Using the IP Command with Output Explanation"_](https://samuel-ricky.medium.com/how-to-interpret-the-output-of-ip-addr-show-8008c7c41dde).
+
 ## Comprobación de Conectividad con `ping`
 
 El comando `ping` se usa para verificar si un dispositivo en la red responde.
@@ -51,8 +53,6 @@ Request timeout for icmp_seq 1
 **Importancia en ROS 2**: Si un nodo ROS 2 no responde al `ping`, es posible que haya problemas de red o firewalls bloqueando la comunicación.  
 
 ![](../images/ping_cmd.png)
-
-Para más información para interpretar la salida del comando, consultar la siguiente referencia [_"How to Check an IP Address Using the IP Command with Output Explanation"_](https://samuel-ricky.medium.com/how-to-interpret-the-output-of-ip-addr-show-8008c7c41dde).
 
 ## Pruebas de Comunicación con `netcat`
 
