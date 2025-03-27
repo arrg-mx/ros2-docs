@@ -52,6 +52,8 @@ Request timeout for icmp_seq 1
 
 ![](../images/ping_cmd.png)
 
+Para más información para interpretar la salida del comando, consultar la siguiente referencia [_"How to Check an IP Address Using the IP Command with Output Explanation"_](https://samuel-ricky.medium.com/how-to-interpret-the-output-of-ip-addr-show-8008c7c41dde).
+
 ## Pruebas de Comunicación con `netcat`
 
 `netcat` (o `nc`) permite probar la comunicación entre dos dispositivos mediante TCP o UDP.
