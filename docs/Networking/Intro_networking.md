@@ -254,7 +254,7 @@ Se define mediante una **máscara de subred** (`Subnet Mask`), que determina cu�
 - `192.168.2.0/24` para producción.
 - `192.168.3.0/24` para investigación.
 
-Los ejemplos anteriores se encuentran en [notación CIDR](CIDR_notation.md)
+***Los ejemplos anteriores se encuentran en [notación CIDR](CIDR_notation.md)***
 
 **Ventajas del Subnetting:**
 - Mejora la seguridad y segmentación de la red.
