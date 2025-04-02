@@ -28,6 +28,8 @@ ip a
 
 ![](../images/ip_address_cmd.png)
 
+**Nota**: Para más información adicional para interpretar la salida del comando, consultar la siguiente referencia [_"How to Check an IP Address Using the IP Command with Output Explanation"_](https://samuel-ricky.medium.com/how-to-interpret-the-output-of-ip-addr-show-8008c7c41dde).
+
 ## Comprobación de Conectividad con `ping`
 
 El comando `ping` se usa para verificar si un dispositivo en la red responde.
