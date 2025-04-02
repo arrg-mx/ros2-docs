@@ -204,60 +204,62 @@ El **DNS** es un sistema que traduce nombres de dominio (ej. `www.google.com`) e
 
 ### IP Address (Dirección IP)
 
-- **Definición:** Es un identificador único asignado a cada dispositivo conectado a una red para permitir su comunicación dentro de Internet o redes privadas. Funciona como una "dirección digital" que permite enviar y recibir datos entre dispositivos.  
-- **Tipos de direcciones IP:** IPv4 (formato `192.168.1.1`) e IPv6 (formato `2001:db8::ff00:42:8329`).  
-- **Ejemplo de uso:** Cuando abres una página web, tu computadora usa su dirección IP para enviar una solicitud al servidor, que también tiene su propia IP.  
+- **Definición:** Es un identificador único asignado a cada dispositivo conectado a una red para permitir su comunicación dentro de Internet o redes privadas. Funciona como una "dirección digital" que permite enviar y recibir datos entre dispositivos.
+- **Tipos de direcciones IP:** IPv4 (formato `192.168.1.1`) e IPv6 (formato `2001:db8::ff00:42:8329`).
+- **Ejemplo de uso:** Cuando abres una página web, tu computadora usa su dirección IP para enviar una solicitud al servidor, que también tiene su propia IP.
 
 ### Direcciones IP Estáticas vs. Dinámicas
 
-1. IP Estática:  
-    - Es una dirección IP fija que no cambia con el tiempo.  
-    - Se usa en servidores, cámaras de seguridad y dispositivos que requieren accesibilidad constante desde la red.  
-    - Ejemplo: Un servidor web con IP `203.0.113.45` siempre mantiene la misma dirección.  
+1. IP Estática:
+    - Es una dirección IP fija que no cambia con el tiempo.
+    - Se usa en servidores, cámaras de seguridad y dispositivos que requieren accesibilidad constante desde la red.
+    - Ejemplo: Un servidor web con IP `203.0.113.45` siempre mantiene la misma dirección.
 
 1. IP Dinámica:
-    - Es una dirección IP asignada temporalmente por un proveedor de internet (ISP) y puede cambiar en cada conexión.  
-    - Se usa en la mayoría de los dispositivos domésticos para optimizar el uso de direcciones IP.  
-    - Ejemplo: Un router doméstico recibe una IP diferente cada vez que se reinicia su conexión a internet.  
+    - Es una dirección IP asignada temporalmente por un proveedor de internet (ISP) y puede cambiar en cada conexión.
+    - Se usa en la mayoría de los dispositivos domésticos para optimizar el uso de direcciones IP.
+    - Ejemplo: Un router doméstico recibe una IP diferente cada vez que se reinicia su conexión a internet.
 
 ### IP Pública vs. IP Privada
 
 1. IP Pública:
-   - Es una dirección IP visible en internet, asignada por un **ISP** (*Internet Service Provider*) a un dispositivo o router.  
-   - Permite la comunicación directa entre dispositivos de diferentes redes a través de internet.  
-   - Ejemplo: Un servidor web con la IP `54.172.98.30` es accesible desde cualquier parte del mundo.  
+   - Es una dirección IP visible en internet, asignada por un **ISP** (*Internet Service Provider*) a un dispositivo o router.
+   - Permite la comunicación directa entre dispositivos de diferentes redes a través de internet.
+   - Ejemplo: Un servidor web con la IP `54.172.98.30` es accesible desde cualquier parte del mundo.
 
 1. IP Privada:
-   - Es una dirección IP utilizada dentro de una red local (LAN), no accesible desde internet.  
-   - Permite la comunicación interna entre dispositivos sin usar una IP pública.  
-   - Ejemplo: Un router doméstico asigna direcciones IP privadas como `192.168.1.10` a computadoras y teléfonos dentro de una casa.  
+   - Es una dirección IP utilizada dentro de una red local (LAN), no accesible desde internet.
+   - Permite la comunicación interna entre dispositivos sin usar una IP pública.
+   - Ejemplo: Un router doméstico asigna direcciones IP privadas como `192.168.1.10` a computadoras y teléfonos dentro de una casa.
     
-    **Rangos de IP Privadas (Reservadas por la IANA):**  
-    - `10.0.0.0 - 10.255.255.255`  
-    - `172.16.0.0 - 172.31.255.255`  
-    - `192.168.0.0 - 192.168.255.255`  
+    **Rangos de IP Privadas (Reservadas por la IANA):**
+    - `10.0.0.0 - 10.255.255.255`
+    - `172.16.0.0 - 172.31.255.255`
+    - `192.168.0.0 - 192.168.255.255`
 
 ### Subnetting (Subredes)
 
-**Definición:** 
+**Definición:**
 
-Es la técnica de dividir una red grande en redes más pequeñas (subredes) para mejorar la organización y eficiencia del tráfico de datos.  
+Es la técnica de dividir una red grande en redes más pequeñas (subredes) para mejorar la organización y eficiencia del tráfico de datos.
 
-Se define mediante una **máscara de subred** (`Subnet Mask`), que determina cuántos bits de la dirección IP pertenecen a la red y cuántos a los dispositivos.  
+Se define mediante una **máscara de subred** (`Subnet Mask`), que determina cuántos bits de la dirección IP pertenecen a la red y cuántos a los dispositivos.
 
-**Ejemplo de máscara de subred:**  
-- `255.255.255.0` → Permite 254 direcciones dentro de la subred.  
-- `255.255.0.0` → Permite más dispositivos en la misma red.  
+**Ejemplo de máscara de subred:**
+- `255.255.255.0` → Permite 254 direcciones dentro de la subred.
+- `255.255.0.0` → Permite más dispositivos en la misma red.
 
-**Ejemplo de uso:** Una empresa usa subnetting para separar departamentos:  
-- `192.168.1.0/24` para administración.  
-- `192.168.2.0/24` para producción.  
-- `192.168.3.0/24` para investigación.  
+**Ejemplo de uso:** Una empresa usa subnetting para separar departamentos:
+- `192.168.1.0/24` para administración.
+- `192.168.2.0/24` para producción.
+- `192.168.3.0/24` para investigación.
 
-**Ventajas del Subnetting:**  
-- Mejora la seguridad y segmentación de la red.  
-- Reduce la congestión del tráfico.  
-- Facilita la administración de direcciones IP.  
+Los ejemplos anteriores se encuentran en [notación CIDR](CIDR_notation.md)
+
+**Ventajas del Subnetting:**
+- Mejora la seguridad y segmentación de la red.
+- Reduce la congestión del tráfico.
+- Facilita la administración de direcciones IP.
 
 ### Proxy
 
