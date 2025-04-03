@@ -18,7 +18,7 @@ La VM tiene acceso a internet, pero se encuentra en una subred separada del sist
 - No permite comunicación directa con otros dispositivos en la red local.  
 - No es recomendable para ROS 2, ya que el descubrimiento de nodos fallará.  
 
-**Conclusión:** Modo **NO recomendado** para comunicación en ROS 2.
+**Conclusión:** Modo **NO recomendado** para comunicación en **ROS 2**.
 
 ![](../images/NAT2-Network-wbg.png)
 
@@ -33,7 +33,7 @@ La VM obtiene una dirección IP en la misma subred que el sistema anfitrión y o
 **Desventajas:**  
 - Puede requerir configuraciones adicionales en redes con restricciones de seguridad (firewalls, políticas de red).  
 
-**Conclusión:** Modo **altamente recomendado** para ROS 2.
+**Conclusión:** Modo **altamente recomendado** para **ROS 2**.
 
 ![](../images/Bridge-Network-wbg.png)
 
