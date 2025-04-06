@@ -15,8 +15,9 @@ Crear un laboratorio de Robótica Remota para la realización de prácticas de t
 ## Nombre del responsable : VICTOR JAVIER GONZALEZ VILLELA
 
 ## PARTICIPANTES: 
-### M.I. ERIK PEÑA MEDINA
 ### ING. FELIPE RIVAS CAMPOS
+### M.I. ERIK PEÑA MEDINA
+
 
 ## DESCRIPCIÓN
 Este repositorio contiene los archivos relacionados con la implementación de la comunicación mediante la red WiFi implementada en el banco de pruebas de robótica serial y el espacio de robótica móvil.
