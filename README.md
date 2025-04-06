@@ -1,4 +1,30 @@
-# ROS2 Documentación
+# UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
+# FACULTAD DE INGENIERIA 
+
+# PROYECTO PAPIME PE110923 DESARROLLO DE UN LABORATORIO DE ROBOTICA REMOTO PARA REALIZAR PRACTICAS DE PROGRAMACION DE ALGORITMOS DE PLANEACION Y DE NAVEGACION EN BANCOS DE PRUEBA FISICOS
+# REPOSITORIO DE ROBÓTICA SERIAL
+
+## Área principal :	Área de las Ciencias Físico Matemáticas y de las Ingenierías
+## Disciplina :	Ingenierías
+## Entidad académica de adscripción del proyecto: Fac. Ingeniería
+
+## Objetivo
+Crear un laboratorio de Robótica Remota para la realización de prácticas de teleoperación, planeación de rutas y coordinación de movimientos y transporte de materiales para robótica y robótica móvil para los niveles de licenciatura y posgrado.
+
+
+## Nombre del responsable : VICTOR JAVIER GONZALEZ VILLELA
+
+## PARTICIPANTES: 
+### M.I. ERIK PEÑA MEDINA
+### ING. FELIPE RIVAS CAMPOS
+
+## DESCRIPCIÓN
+Este repositorio contiene los archivos relacionados con la implementación de la comunicación mediante la red WiFi implementada en el banco de pruebas de robótica serial y el espacio de robótica móvil.
+
+## ENLACE PARA LA DESCARGA DE LA MÁQUINA VIRTUAL DEL CURSO
+
+https://1drv.ms/u/c/602ebeff73b09729/EdaMON01GmdGkongpOZjlBYBc6aa-aCmeawS7qPdC5lt-Q?e=enHPNE&authuser=0
+
 
 ## Contenido
 
@@ -13,3 +39,10 @@
 5. [Protocolo RTPS (Real-Time Publish-Subscribe)](./docs/Networking/RTPS.md)
 6. [Implementaciones RMW](./docs/Networking/RMW.md)
 7. [ROS2 Daemon](./docs/Networking/Daemon.md)
+
+# Repositorios con el resto del contenido del proyecto
+
+- [Repositorio de robótica móvil](https://github.com/arrg-mx/Papime_PE110923_rmovil.git)
+- [Repositorio de robótica serial](https://github.com/arrg-mx/Papime_PE110923_rserial.git)
+
+Facultad de Ingeniería UNAM. Todos los derechos reservados, Facultad de Ingeniería de la Universidad Nacional Autónoma de México © 2025. Quedan estrictamente prohibidos su uso fuera del ámbito académico, alteración, descarga o divulgación por cualquier medio, así como su reproducción parcial o total.
