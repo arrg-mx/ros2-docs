@@ -1,3 +1,5 @@
+"Este material fue desarrollado con el apoyo del PAPIME PE110923 de la UNAM."
+
 # Uso de SSH para conectarse a un dispositivo en una Red Local
 
 En **ROS 2**, muchas aplicaciones requieren la conexión remota a un robot para ejecutar nodos, monitorear procesos o depurar errores. Una de las formas más eficientes y seguras de acceder a un robot en una red local es mediante **SSH (Secure Shell)**.  
