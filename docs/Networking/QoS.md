@@ -1,3 +1,5 @@
+"Este material fue desarrollado con el apoyo del PAPIME PE110923 de la UNAM."
+
 # Quality of Service (QoS) (Calidad de Servicio)
 
 ## ¿Qué es QoS en ROS 2?
