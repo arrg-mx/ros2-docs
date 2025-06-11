@@ -1,3 +1,5 @@
+"Este material fue desarrollado con el apoyo del PAPIME PE110923 de la UNAM."
+
 # Consideraciones para Comunicar una Máquina Virtual con Dispositivos en una Red Local en ROS 2
 
 Cuando se utiliza una **Máquina Virtual (VM)** para ejecutar **ROS 2** y se necesita establecer comunicación con otros dispositivos en una red local, se deben considerar diversos factores relacionados con la configuración de la red, el descubrimiento de nodos y la compatibilidad del middleware. A continuación, se describen las principales consideraciones para garantizar una comunicación eficiente.  
