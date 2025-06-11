@@ -1,3 +1,6 @@
+
+"Este material fue desarrollado con el apoyo del PAPIME PE110923 de la UNAM."
+
 # Introducción a las Comunicaciones de Red
 
 El término **Comunicaciones de Red o "Networking"** se refiere a la interconexión de dispositivos y sistemas para permitir la comunicación y el intercambio de datos entre ellos. En el ámbito de la informática y las telecomunicaciones, el **networking** abarca el diseño, implementación y gestión de redes de comunicación, incluyendo hardware, software y protocolos que facilitan la transferencia de información.  
