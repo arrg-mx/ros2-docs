@@ -1,3 +1,6 @@
+"Este material fue desarrollado con el apoyo del PAPIME PE110923 de la UNAM."
+
+
 # Notación CIDR
 
 La **notación CIDR** (*Classless Inter-Domain Routing*, o "Enrutamiento Inter-Dominio Sin Clases") es un método para representar y asignar direcciones IP de manera más flexible que el esquema tradicional basado en clases de red (Clase A, B y C).  
