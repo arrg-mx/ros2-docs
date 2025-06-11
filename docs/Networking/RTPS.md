@@ -1,3 +1,5 @@
+"Este material fue desarrollado con el apoyo del PAPIME PE110923 de la UNAM."
+
 # Protocolo RTPS (Real-Time Publish-Subscribe)
 
 En **ROS 2**, la comunicación entre nodos se basa en el protocolo **RTPS (Real-Time Publish-Subscribe)**, el cual es una implementación específica del estándar [**DDS (Data Distribution Service)**](DDS.md). **RTPS** permite la transmisión de datos en **tiempo real**, utilizando un modelo descentralizado donde los nodos pueden intercambiar información sin depender de un servidor central.  
