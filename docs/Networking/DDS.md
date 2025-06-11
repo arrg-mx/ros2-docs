@@ -1,3 +1,5 @@
+"Este material fue desarrollado con el apoyo del PAPIME PE110923 de la UNAM."
+
 # DDS (Data Distribution Service)
 
 En **ROS 2 (Robot Operating System 2)**, la comunicación entre nodos es un aspecto fundamental para el desarrollo de aplicaciones robóticas distribuidas y escalables. Para gestionar esta comunicación, ROS 2 utiliza **DDS (Data Distribution Service)**, un estándar que permite la transmisión eficiente y confiable de datos en sistemas distribuidos.  
