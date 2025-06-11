@@ -1,3 +1,6 @@
+
+"Este material fue desarrollado con el apoyo del PAPIME PE110923 de la UNAM."
+
 # ROS 2: Comunicaciones de Red (Networking)
 
 Uno de los aspectos más importantes en **ROS 2** es su sistema de **comunicaciones de red**, el cual permite la interacción entre nodos distribuidos en diferentes dispositivos o computadoras, facilitando la construcción de sistemas robóticos modulares y flexibles.  
