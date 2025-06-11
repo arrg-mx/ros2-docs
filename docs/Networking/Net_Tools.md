@@ -1,3 +1,6 @@
+
+"Este material fue desarrollado con el apoyo del PAPIME PE110923 de la UNAM."
+
 # Herramientas para el Análisis de Red en ROS 2
 
 En **ROS 2**, la comunicación entre nodos depende de una red correctamente configurada. Para garantizar una conexión estable y solucionar problemas de comunicación, se pueden utilizar varias herramientas de análisis de red. A continuación, se presentan herramientas y comandos útiles para monitorear y diagnosticar la conectividad en una red local.  
