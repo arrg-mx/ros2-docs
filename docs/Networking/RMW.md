@@ -1,3 +1,5 @@
+"Este material fue desarrollado con el apoyo del PAPIME PE110923 de la UNAM."
+
 # Implementaciones RMW
 
 ## ¿Qué es RMW?  
